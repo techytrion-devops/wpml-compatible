@@ -1,0 +1,78 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+body {
+  font-family: Arial;
+}
+/* Style the tab */
+.tabs.smm-addon-admin {
+  	overflow: hidden;
+    border: 1px solid #d44c45;
+    background-color: #d44c45;
+    border-radius: 8px 8px 0px 0px;
+    padding: 3px 20px;
+    border-bottom: none;
+}
+/* Style the buttons inside the tabs */
+.tabs.smm-addon-admin .button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 2px 23px;
+	border-radius: 5px;
+	color: #fff;
+    margin: 0 8px;
+	transition: 0.3s;
+	font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tabs.smm-addon-admin .button:hover {
+	background-color: #e9e9e9;
+    color: #000;
+}
+/* Create an active/current tabslink class */
+.tabs.smm-addon-admin .button.active {
+    background-color: #e18343;
+    color: #fff;
+}
+/* Style the tabs content */
+.tabcontent.tabs-content-area {
+	padding: 10px 12px;
+    border: 1px solid #d44c45;
+    border-top: none;
+}
+.tabs-content-area #the-list .label {
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.tabs-content-area #the-list .status {
+    padding-top: 10px;
+}
+
+#addNewModal select,
+#addNewModal .form-group input{
+width:100%; 
+}
+
+#addNewModal .error-field{
+border-color:#f00;  
+}
+
+.iconic-wlv-terms__term-content{
+background:#fff;	
+}
+.single-product .variations .value.iconic-wlv-variations__value{
+padding-left:15px;	
+}
+.single-product .variations .iconic-wlv-terms__term{
+margin-right:15px !important;	
+}
+.variations .label .iconic-wlv-variations__label{
+	color:#222;
+}
+
+
